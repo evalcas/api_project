@@ -20,6 +20,8 @@ dbConection();
 
 //Rutas de la API
 app.use('/api/usuarios', require('./routes/usuarios.routes'));
+app.use('/api/proyectos', require('./routes/proyectos.routes'));
+app.use('/api/investigadores',require('./routes/investigadores.routes'));
 app.use('/api/login', require('./routes/auth.routes'));
 
 
